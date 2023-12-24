@@ -1,12 +1,14 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import "./index.css";
-import FormularioComponent from "./components/FormularioComponent";
+import UsuariosComponent from "./components/UsuariosComponent";
+// import FormularioComponent from "./components/FormularioComponent";
 // import HooksApp from "./HooksApp";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
     {/* <HooksApp /> */}
-    <FormularioComponent />
+    {/* <FormularioComponent /> */}
+    <UsuariosComponent />
   </React.StrictMode>
 );
