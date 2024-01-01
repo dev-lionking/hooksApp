@@ -32,9 +32,9 @@ const useFetch = (url) => {
   }, [url]);
 
   return {
-    data,
-    isLoading,
-    errors,
+    data: state.data,
+    isLoading: state.isLoading,
+    errors: state.errors,
   };
 };
 
